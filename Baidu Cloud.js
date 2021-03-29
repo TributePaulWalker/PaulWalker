@@ -1,4 +1,5 @@
-//修改自https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+/*
+修改自https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 特别感谢：@mieqq
 QuantumultX
 [rewrite_local]
@@ -11,6 +12,7 @@ Surge
 
 [MITM]
 hostname = pan.baidu.com
+*/
 
 let obj = {
   "product_infos": [{
