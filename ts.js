@@ -30,7 +30,7 @@ Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.gi
   let infoList = [`使用: ${used} | ${total}`];
   
   if (resetLeft) {
-    infoList.push(`重置: ${resetLeft} 天${resetLeft == 1 ? "" : "s"}`);
+    infoList.push(`重置: ${day_left} 天${day_left == 1 ? "" : "后"}`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) {
