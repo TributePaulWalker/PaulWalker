@@ -27,16 +27,16 @@ Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.gi
   let resetLeft = getRmainingDays(resetDay);
 
   let localProxy = "=http, localhost, 6152";
-  let infoList = [`Usage: ${used} | ${total}`];
+  let infoList = [`使用: ${used} | ${total}`];
   
   if (resetLeft) {
-    infoList.push(`Traffic Reset: ${resetLeft} Day${resetLeft == 1 ? "" : "s"}`);
+    infoList.push(`重置: ${resetLeft} 天${resetLeft == 1 ? "" : ""}`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) {
       expire = formatTimestamp(expire*1000);
     }
-    infoList.push(`Expire Date: ${expire}`);
+    infoList.push(`到期: ${expire}`);
   }
     sendNotification(usage, resetLeft, expire, params, infoList);
     let body = infoList.map(item => item + localProxy).join("\n");
