@@ -5,7 +5,7 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 ----------------------------------------
 
 [Proxy Group]
-AmyInfo = select, policy-path=http://sub.info?url=xxx&reset_day=8&alert=1&title=AmyInfo
+AmyInfo = select, policy-path=http://sub.info?url=xxx&alert=1
 
 [Script]
 Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info.js
@@ -38,7 +38,7 @@ Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.gi
   let infoList = [`使用: ${used} | ${total}`];
   
   if (resetLeft) {
-    infoList.push(`重置: ${resetLeft} 天后${resetLeft == 1 ? "" : ""}`);
+    infoList.push(`重置: 剩余${resetLeft}天`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) {
