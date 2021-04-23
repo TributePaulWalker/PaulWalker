@@ -27,7 +27,7 @@ Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.gi
   let resetLeft = getRmainingDays(resetDay);
 
   let localProxy = "=http, localhost, 6152";
-  let infoList = [`使用1: ${used} | ${total}`];
+  let infoList = [`使用：${used} | ${total}`];
   
   if (resetLeft) {
     infoList.push(`重置: ${resetLeft} 天后${resetLeft == 1 ? "" : ""}`);
