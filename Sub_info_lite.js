@@ -35,7 +35,7 @@ Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.gi
   let resetLeft = getRmainingDays(resetDay);
 
   let localProxy = "=http, localhost, 6152";
-  let infoList = [`统计: ${used} | ${total}`];
+  let infoList = [`流量统计: ${used} | ${total}`];
   
   if (resetLeft) {
     infoList.push(`重置: 剩余${resetLeft}天`);
