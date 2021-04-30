@@ -148,7 +148,7 @@ function sendNotification(usageRate, expire, infoList) {
       }
     }
   }
-  if (resetLeft && resetLeft < count.resetLeft) {
+  if (resetLeft && resetLeft < count.resetLeft && resetDay != today) {
     $notification.post(
       `${title} | 流量将在${resetLeft}天后重置`,
       subtitle,
@@ -156,8 +156,8 @@ function sendNotification(usageRate, expire, infoList) {
     );
     count.resetLeft = resetLeft;
   }
-  if (resetDay == today && count.resetDay) {
-    $notification.post(`${title} | 流量已重置`, subtitle, body);
+  if (resetDay == today && count.resetDay && usageRate < 5) {
+     $notification.post(`${title} | 流量已重置`, subtitle, body);
     count.resetDay = 0;
   }
   if (expire) {
