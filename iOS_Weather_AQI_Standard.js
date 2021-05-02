@@ -1,4 +1,4 @@
-// Developed by Hackl0us (https://github.com/hackl0us)本配置中的API Token为本人自用 特此说明
+// Developed by Hackl0us (https://github.com/hackl0us)
 
 // STEP 1: 前往 https://aqicn.org/data-platform/token/ 注册账户，将申请的 API Token 填入下方
 const aqicnToken = '694830bf54fc61fb4d1317fc2eb606b5240ffc69'
