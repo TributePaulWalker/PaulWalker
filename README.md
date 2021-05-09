@@ -1,6 +1,6 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
 特别感谢：
-* [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
+
 * [mieqq](https://github.com/mieqq/mieqq)
 * [maicoo](https://github.com/maicoobox/Surge)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
