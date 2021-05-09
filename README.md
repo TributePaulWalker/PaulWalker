@@ -3,7 +3,7 @@
 
 * [mieqq](https://github.com/mieqq/mieqq)
 * [Hackl0us](https://github.com/Hackl0us)
-* [NobyDa](https://github.com(https://github.com/787a68)
+* [NobyDa](https://github.com/NobyDa)
 
 
 免责声明：
