@@ -1,12 +1,7 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
 
 *特别感谢*
-
-<details>
   
-
-  
-
 * [mieqq](https://github.com/mieqq/mieqq)
 * [Hackl0us](https://github.com/Hackl0us)
 * [NobyDa](https://github.com/NobyDa)
