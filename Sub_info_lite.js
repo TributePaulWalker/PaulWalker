@@ -9,7 +9,8 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 AmyInfo = select, policy-path=http://sub.info?url=机场节点链接&reset_day=1&alert=1, update-interval=3600
 
 [Script]
-Sub_info_lite = https://raw.githubusercontent.com/TributePaulWalker/JavaScript/main/Sub_info_lite.js
+机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/JavaScript/main/Sub_info_lite.js
+
 ----------------------------------------
 
 脚本不用修改，直接配置就好。
