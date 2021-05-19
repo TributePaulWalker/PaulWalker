@@ -1,9 +1,6 @@
 /*
 修改自https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 特别感谢：@mieqq
-QuantumultX
-[rewrite_local]
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/TributePaulWalker/JavaScript/main/Baidu%20Cloud.js
 
 Surge 
 [Script]
